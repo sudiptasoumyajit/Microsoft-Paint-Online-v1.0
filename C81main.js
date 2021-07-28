@@ -22,3 +22,8 @@ ctx.lineWidth=5;
 ctx.arc(mouse_x, mouse_y, 40, 0, 2*Math.PI);
 ctx.stroke();
 }
+ctx.beginPath();
+ctx.strokeStyle="black";
+ctx.lineWidth=1;
+ctx.rect(150,143,340,200);
+ctx.stroke();
